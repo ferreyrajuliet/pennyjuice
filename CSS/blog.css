@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainerBlog {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.containerImage {
+    width: 20%;
+
+}
+
+.containerImage h2 {
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    color: #435c73;
+
+}
+
+.containerImage img {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px #435c73;
+    -webkit-box-shadow: 10px 10px 5px 0px #435c73;
+    -moz-box-shadow: 10px 10px 5px 0px #435c73;
+
+}

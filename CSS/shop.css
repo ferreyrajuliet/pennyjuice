@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shop-section {
+    padding: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.shop-title {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 100px;
+    color: #435c73;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.subProductInfo{
+    width: 80%;
+}
+.product-info h4 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #435c73;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.product-info p {
+    margin: 0;
+    font-size: 10px;
+    color: #a5612e;
+    font-weight: bold;
+    text-align: left;
+}
+
+.qty-control {
+    margin-top: 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #435c73;
+}
+
+.qty-control span{
+color:#d7b6a4;
+}
+.qtycard{
+    width:40px;
+    background-color: #435c73;
+}

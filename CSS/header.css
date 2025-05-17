@@ -1,0 +1,148 @@
+/*START HEADER*/
+header {
+    width: 100%;
+}
+
+.topnav {
+    background-image: url(../IMAGES/header-bg-OPT.jpg);
+    height: 40vh;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topnav.no-bg {
+    background-image: none !important;
+    height: 200px;
+}
+
+.topnav.bg-blog {
+    background-image: url(../IMAGES/blog-bg-OPT.jpg) !important;
+    height: 60vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topnav.faqs {
+    background-image: url(../IMAGES/faqs-citrus-OPT.jpg) !important;
+    height: 60vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-image: url(/IMAGES/header-blue-banner-OPT.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.containerNavOne {
+    width: 33.3%;
+}
+
+.containerNavOne ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.containerNavOne ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.containerNavOne ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.containerNavOne ul li a {
+    font-family: 'Brush Script MT', cursive;
+    text-decoration: none;
+    color: #435c73;
+    font-size: 30px;
+    text-transform: lowercase;
+}
+
+.containerNavOne ul li a:hover {
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    color: #8f6855;
+}
+
+
+.logo {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.imgLogo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.containerNavTwo {
+    width: 33.3%;
+}
+
+.containerNavTwo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerNavTwo ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.containerNavTwo ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.containerNavTwo ul li a {
+    font-family: 'Brush Script MT', cursive;
+    text-decoration: none;
+    color: #435c73;
+    font-size: 30px;
+    text-transform: lowercase;
+}
+
+.containerNavTwo ul li a:hover {
+    background-color: #faebd7;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    color: #8f6855;
+}
+
+/*END HEADER*/

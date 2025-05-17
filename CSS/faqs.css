@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1Faqs {
+    padding-left: 80px;
+    font-size: 80px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 280px;
+    color: #435c73;
+}
+
+.mainContainerFaqs{
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.textContainerFaqs{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titlesAndSubtitles{
+    width: 100%;
+    padding: 15px;
+}
+
+.titlesAndSubtitles h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #435c73;
+    font-weight: bold;
+}
+.titlesAndSubtitles li {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #435c73;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.imageContainerFaqs{
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.imageContainerFaqs img{
+    width: 100%;
+}

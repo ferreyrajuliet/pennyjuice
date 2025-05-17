@@ -1,0 +1,88 @@
+footer {
+    background-color: #dfbda4;
+    padding: 30px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.footerLeftRight {
+    width: 33.3%;
+    display: flex;
+    color: #435c73;
+}
+
+.footer-left {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: start;
+    width: 50%;
+    color: #435c73;
+}
+
+.logoFooter {
+    font-family: 'Brush Script MT', cursive;
+    font-size:50px;
+
+}
+
+.footer-right {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: start;
+    width: 50%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #435c73;
+}
+
+.footer-center {
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    color: #435c73;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social-icons i {
+    margin: 10px 8px;
+}
+
+.fa {
+    color: #f1e9e3;
+}
+
+.footer-end {
+    width: 25%;
+    text-align: right;
+
+}
+
+.footer-end .contact {
+    font-size: 50px;
+    font-family: 'Brush Script MT', cursive;
+    color: #435c73;
+}
+
+.shipping {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #f1e9e3;
+}

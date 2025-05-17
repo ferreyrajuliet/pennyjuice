@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* START INDEX*/
+
+.containerOne {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titles {
+    width: 40%;
+
+}
+
+.containerOne h1 {
+font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    color: #435c73;
+    line-height: 80px;
+}
+
+.containerOne h1 span {
+    text-align: right;
+    width: 100%;
+}
+
+.paragraphOne {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: right;
+    width: 95%;
+    color: #a52a2a;
+    margin-top: 30px;
+}
+
+.paragraphTwo {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: right;
+    width: 95%;
+    color: #a52a2a;
+}
+
+.titleAndImages {
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleAndImages p {
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 60%;
+    color: #a52a2a;
+}
+
+.containerImage {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image1 {
+    width: 30%;
+    margin: 5px;
+}
+
+.image1 img {
+    width: 100%;
+    height: 300px;
+}
+
+.image2 {
+    position: relative;
+    width: 70%;
+    margin: 5px;
+}
+
+.image2 img {
+    width: 100%;
+    height: 300px;
+}
+
+.labelImage {
+    width: 35%;
+    position: absolute;
+    right: -40px;
+    top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+
+}
+
+.labelImage p {
+    width: 100%;
+    color: #435c73;
+    background-color: #A3C8D6;
+    height: 30px;
+    font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+/*END INDEX*/
+
